@@ -1,0 +1,91 @@
+{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background:url(../imagenes/fondo.jpg);
+}
+
+header, .main, footer{
+	width: 90%;
+	max-height: 1000px;
+	margin: 20px auto;
+}
+
+header nav{
+	background: #528FD5;
+	overflow: hidden;
+
+}
+
+header nav ul{
+	list-style: none;
+
+}
+
+header nav ul li{
+	float: left;
+
+}
+
+header nav ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	/*font-style: "Verdana";*/
+	font-size: 20px;
+}
+
+header nav ul li a:hover{
+	background: #75ACEC;
+}
+
+.main .articles{
+	width: 68.5%;
+	margin-right: 1.5%;
+	float: left;
+	background: #31DDDA;
+}
+
+.main .articles article{
+	padding: 20px;
+	background: #13FDFD;
+	margin-bottom: 20px
+}
+
+.main .articles h2{
+	text-align: center;
+	background: #D031DD;
+	font-size: 26px;
+}
+
+.main .articles p{
+	font-size: 20px;
+}
+
+aside{
+	width: 30%;
+	background: #ff8000;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+
+aside h3{
+	text-align: center;
+}
+
+footer{
+	background: #000;
+	color: #fff;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
